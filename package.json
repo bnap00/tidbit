@@ -2,7 +2,7 @@
   "name": "tidbit",
   "version": "0.1.0",
   "license": "MIT",
-  "description": "A tiny AI pet for the browser and an ESP32 screen. The model picks moods and gestures; a procedural rig draws the pet. Works with any AI provider through the pi SDK, or fully offline.",
+  "description": "A tiny AI pet that animates itself live with no image generation. Any AI provider or offline; remembers, learns skills, and calls any API or webhook.",
   "private": true,
   "type": "module",
   "packageManager": "pnpm@10.15.0",

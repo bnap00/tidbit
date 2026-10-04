@@ -1,9 +1,10 @@
-# Integrations: Home Assistant, notifications, webhooks
+# Integrations: connect your pal to anything
 
-Your pal can call any HTTP endpoint you give it. That's the whole integration
-system: an **action** is a named web request, and a **skill** is a page of
-instructions that tells the pal when and how to use it. Neither one runs code on your
-machine.
+Your pal can call any HTTP API or webhook you give it, so it isn't limited to a list of
+built-in services. Home Assistant, ntfy and n8n below are just examples. The whole
+integration system is two pieces: an **action** is a named web request, and a
+**skill** is a page of instructions that tells the pal when and how to use it. Neither
+one runs code on your machine.
 
 Open **Skills & actions** in the pal's side pane to add them.
 
