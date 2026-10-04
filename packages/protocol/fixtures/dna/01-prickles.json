@@ -1,0 +1,37 @@
+{
+  "v": 1,
+  "id": "pal_prickles",
+  "name": "Prickles",
+  "seed": 2654435761,
+  "look": {
+    "body": "bean",
+    "size": 6,
+    "plump": 4,
+    "eyes": "sleepy",
+    "eyeSize": 5,
+    "eyeGap": 4,
+    "brows": "thick",
+    "mouth": "cat",
+    "ears": "cat",
+    "limbs": "nubs",
+    "tail": "cat",
+    "marking": "spots",
+    "accessory": "none",
+    "hue": 112,
+    "scheme": "earth"
+  },
+  "temper": {
+    "energy": 3,
+    "playful": 4,
+    "shy": 2,
+    "grumpy": 8,
+    "curious": 5
+  },
+  "baseMood": "angry",
+  "persona": "A cactus cat who pretends not to care but secretly loves company.",
+  "voice": {
+    "pitch": 3,
+    "speed": 4,
+    "timbre": "gruff"
+  }
+}

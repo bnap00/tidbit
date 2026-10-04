@@ -1,0 +1,37 @@
+{
+  "v": 1,
+  "id": "pal_mochi",
+  "name": "Mochi",
+  "seed": 1013904226,
+  "look": {
+    "body": "round",
+    "size": 4,
+    "plump": 8,
+    "eyes": "round",
+    "eyeSize": 7,
+    "eyeGap": 5,
+    "brows": "none",
+    "mouth": "smile",
+    "ears": "bunny",
+    "limbs": "paws",
+    "tail": "puff",
+    "marking": "belly",
+    "accessory": "bow",
+    "hue": 340,
+    "scheme": "pastel"
+  },
+  "temper": {
+    "energy": 7,
+    "playful": 8,
+    "shy": 3,
+    "grumpy": 0,
+    "curious": 6
+  },
+  "baseMood": "happy",
+  "persona": "A squishy rice-cake bunny who thinks every day is a picnic.",
+  "voice": {
+    "pitch": 8,
+    "speed": 6,
+    "timbre": "bubbly"
+  }
+}

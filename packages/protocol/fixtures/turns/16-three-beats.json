@@ -1,0 +1,30 @@
+{
+  "v": 1,
+  "beats": [
+    {
+      "mood": "surprised",
+      "intensity": 1,
+      "say": "Oh?",
+      "action": "none",
+      "look": "right",
+      "fx": "exclaim"
+    },
+    {
+      "mood": "curious",
+      "intensity": 2,
+      "say": "A new plant?",
+      "action": "peek",
+      "look": "right",
+      "fx": "question"
+    },
+    {
+      "mood": "happy",
+      "intensity": 2,
+      "say": "It's lovely!",
+      "action": "nod",
+      "look": "user",
+      "fx": "sparkles"
+    }
+  ],
+  "bond": "up"
+}

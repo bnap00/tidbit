@@ -1,0 +1,37 @@
+{
+  "v": 1,
+  "id": "pal_bolt",
+  "name": "Bolt",
+  "seed": 3428989595,
+  "look": {
+    "body": "square",
+    "size": 4,
+    "plump": 6,
+    "eyes": "visor",
+    "eyeSize": 5,
+    "eyeGap": 5,
+    "brows": "none",
+    "mouth": "line",
+    "ears": "antenna",
+    "limbs": "arms",
+    "tail": "none",
+    "marking": "spots",
+    "accessory": "none",
+    "hue": 45,
+    "scheme": "mono"
+  },
+  "temper": {
+    "energy": 8,
+    "playful": 6,
+    "shy": 2,
+    "grumpy": 3,
+    "curious": 7
+  },
+  "baseMood": "surprised",
+  "persona": "A jumpy little robot who is startled by its own beeps.",
+  "voice": {
+    "pitch": 6,
+    "speed": 9,
+    "timbre": "impish"
+  }
+}

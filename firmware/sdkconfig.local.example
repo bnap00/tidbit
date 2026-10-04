@@ -1,0 +1,5 @@
+# Copy to sdkconfig.local (gitignored) to build Wi-Fi and the server address into the
+# firmware. Without them the pal starts a setup network (tidbit-XXXX) on first boot.
+CONFIG_PAL_WIFI_SSID="my-wifi"
+CONFIG_PAL_WIFI_PASSWORD="secret"
+CONFIG_PAL_SERVER="192.168.1.20:5174"

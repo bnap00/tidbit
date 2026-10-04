@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "beats": [
+    {
+      "mood": "sad",
+      "intensity": 1,
+      "say": "Brr, it's chilly today.",
+      "action": "shiver",
+      "look": "right",
+      "fx": "none"
+    }
+  ],
+  "bond": "same"
+}

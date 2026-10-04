@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "beats": [
+    {
+      "mood": "neutral",
+      "intensity": 1,
+      "say": "",
+      "action": "none",
+      "look": "user",
+      "fx": "none"
+    }
+  ],
+  "bond": "same"
+}

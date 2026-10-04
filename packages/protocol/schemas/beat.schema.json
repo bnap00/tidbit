@@ -1,0 +1,87 @@
+{
+  "type": "object",
+  "required": [
+    "mood",
+    "intensity",
+    "say",
+    "action",
+    "look",
+    "fx"
+  ],
+  "properties": {
+    "mood": {
+      "type": "string",
+      "enum": [
+        "neutral",
+        "happy",
+        "excited",
+        "sad",
+        "angry",
+        "scared",
+        "surprised",
+        "sleepy",
+        "curious",
+        "love",
+        "confused",
+        "proud"
+      ]
+    },
+    "intensity": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 3
+    },
+    "say": {
+      "type": "string",
+      "maxLength": 140
+    },
+    "action": {
+      "type": "string",
+      "enum": [
+        "none",
+        "nod",
+        "shake",
+        "jump",
+        "spin",
+        "wave",
+        "dance",
+        "wiggle",
+        "bow",
+        "cheer",
+        "think",
+        "hide",
+        "peek",
+        "sleep",
+        "eat",
+        "shiver"
+      ]
+    },
+    "look": {
+      "type": "string",
+      "enum": [
+        "user",
+        "left",
+        "right",
+        "up",
+        "down",
+        "away"
+      ]
+    },
+    "fx": {
+      "type": "string",
+      "enum": [
+        "none",
+        "hearts",
+        "sparkles",
+        "zzz",
+        "sweat",
+        "question",
+        "exclaim",
+        "notes",
+        "anger",
+        "tears"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

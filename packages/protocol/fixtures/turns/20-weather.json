@@ -1,0 +1,22 @@
+{
+  "v": 1,
+  "beats": [
+    {
+      "mood": "curious",
+      "intensity": 1,
+      "say": "Checking the sky\u2026",
+      "action": "think",
+      "look": "up",
+      "fx": "none"
+    },
+    {
+      "mood": "happy",
+      "intensity": 2,
+      "say": "Sunny and 22 degrees. Picnic time!",
+      "action": "jump",
+      "look": "user",
+      "fx": "sparkles"
+    }
+  ],
+  "bond": "up"
+}

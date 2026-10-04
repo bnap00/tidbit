@@ -1,0 +1,295 @@
+{
+  "type": "object",
+  "required": [
+    "v",
+    "id",
+    "name",
+    "seed",
+    "look",
+    "temper",
+    "baseMood",
+    "persona",
+    "voice"
+  ],
+  "properties": {
+    "v": {
+      "type": "number",
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^pal_[a-z0-9]{1,24}$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 16
+    },
+    "seed": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 4294967295
+    },
+    "look": {
+      "type": "object",
+      "required": [
+        "body",
+        "size",
+        "plump",
+        "eyes",
+        "eyeSize",
+        "eyeGap",
+        "brows",
+        "mouth",
+        "ears",
+        "limbs",
+        "tail",
+        "marking",
+        "accessory",
+        "hue",
+        "scheme"
+      ],
+      "properties": {
+        "body": {
+          "type": "string",
+          "enum": [
+            "blob",
+            "round",
+            "tall",
+            "squat",
+            "bean",
+            "ghost",
+            "egg",
+            "square"
+          ]
+        },
+        "size": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 9
+        },
+        "plump": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 9
+        },
+        "eyes": {
+          "type": "string",
+          "enum": [
+            "dot",
+            "round",
+            "oval",
+            "tall",
+            "sleepy",
+            "sparkle",
+            "cyclops",
+            "visor"
+          ]
+        },
+        "eyeSize": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 9
+        },
+        "eyeGap": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 9
+        },
+        "brows": {
+          "type": "string",
+          "enum": [
+            "none",
+            "thin",
+            "thick"
+          ]
+        },
+        "mouth": {
+          "type": "string",
+          "enum": [
+            "smile",
+            "cat",
+            "beak",
+            "fang",
+            "line",
+            "o"
+          ]
+        },
+        "ears": {
+          "type": "string",
+          "enum": [
+            "none",
+            "cat",
+            "bunny",
+            "bear",
+            "horn",
+            "antenna",
+            "fin",
+            "leaf"
+          ]
+        },
+        "limbs": {
+          "type": "string",
+          "enum": [
+            "none",
+            "nubs",
+            "arms",
+            "wings",
+            "tentacles",
+            "paws"
+          ]
+        },
+        "tail": {
+          "type": "string",
+          "enum": [
+            "none",
+            "cat",
+            "puff",
+            "devil",
+            "fish",
+            "leaf"
+          ]
+        },
+        "marking": {
+          "type": "string",
+          "enum": [
+            "none",
+            "belly",
+            "spots",
+            "stripes",
+            "mask",
+            "freckles"
+          ]
+        },
+        "accessory": {
+          "type": "string",
+          "enum": [
+            "none",
+            "bow",
+            "hat",
+            "glasses",
+            "scarf",
+            "halo",
+            "flower",
+            "crown"
+          ]
+        },
+        "hue": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 359
+        },
+        "scheme": {
+          "type": "string",
+          "enum": [
+            "mono",
+            "analogous",
+            "complement",
+            "triad",
+            "pastel",
+            "neon",
+            "earth"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "temper": {
+      "type": "object",
+      "required": [
+        "energy",
+        "playful",
+        "shy",
+        "grumpy",
+        "curious"
+      ],
+      "properties": {
+        "energy": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 9
+        },
+        "playful": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 9
+        },
+        "shy": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 9
+        },
+        "grumpy": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 9
+        },
+        "curious": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 9
+        }
+      },
+      "additionalProperties": false
+    },
+    "baseMood": {
+      "type": "string",
+      "enum": [
+        "neutral",
+        "happy",
+        "excited",
+        "sad",
+        "angry",
+        "scared",
+        "surprised",
+        "sleepy",
+        "curious",
+        "love",
+        "confused",
+        "proud"
+      ]
+    },
+    "persona": {
+      "type": "string",
+      "maxLength": 240
+    },
+    "voice": {
+      "type": "object",
+      "required": [
+        "pitch",
+        "speed",
+        "timbre"
+      ],
+      "properties": {
+        "pitch": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 9
+        },
+        "speed": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 9
+        },
+        "timbre": {
+          "type": "string",
+          "enum": [
+            "warm",
+            "bubbly",
+            "soft",
+            "calm",
+            "bright",
+            "posh",
+            "gent",
+            "storyteller",
+            "buddy",
+            "gruff",
+            "impish"
+          ]
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

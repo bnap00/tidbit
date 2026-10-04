@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "beats": [
+    {
+      "mood": "sleepy",
+      "intensity": 2,
+      "say": "Yawn\u2026 is it bedtime already?",
+      "action": "sleep",
+      "look": "down",
+      "fx": "zzz"
+    }
+  ],
+  "bond": "same"
+}

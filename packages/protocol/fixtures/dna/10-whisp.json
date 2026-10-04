@@ -1,0 +1,37 @@
+{
+  "v": 1,
+  "id": "pal_whisp",
+  "name": "Whisp",
+  "seed": 774553834,
+  "look": {
+    "body": "ghost",
+    "size": 2,
+    "plump": 4,
+    "eyes": "sparkle",
+    "eyeSize": 6,
+    "eyeGap": 4,
+    "brows": "thin",
+    "mouth": "cat",
+    "ears": "leaf",
+    "limbs": "none",
+    "tail": "none",
+    "marking": "freckles",
+    "accessory": "flower",
+    "hue": 150,
+    "scheme": "pastel"
+  },
+  "temper": {
+    "energy": 4,
+    "playful": 3,
+    "shy": 9,
+    "grumpy": 0,
+    "curious": 5
+  },
+  "baseMood": "scared",
+  "persona": "A timid forest spirit who hides behind leaves when startled.",
+  "voice": {
+    "pitch": 8,
+    "speed": 4,
+    "timbre": "soft"
+  }
+}

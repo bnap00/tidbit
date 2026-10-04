@@ -1,0 +1,22 @@
+{
+  "v": 1,
+  "beats": [
+    {
+      "mood": "curious",
+      "intensity": 1,
+      "say": "Hmm, let me think\u2026",
+      "action": "think",
+      "look": "up",
+      "fx": "question"
+    },
+    {
+      "mood": "happy",
+      "intensity": 2,
+      "say": "Got it: pancakes.",
+      "action": "nod",
+      "look": "user",
+      "fx": "none"
+    }
+  ],
+  "bond": "same"
+}

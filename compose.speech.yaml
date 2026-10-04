@@ -1,0 +1,27 @@
+# Speech for the device (docs/DEVICE.md): speech-to-text and the pal's Kokoro voice, on the
+# GPU. Only the brain calls them, so they listen on loopback.
+#   docker compose -f compose.speech.yaml up -d
+# Without an NVIDIA GPU use the -cpu images (speaches:latest-cpu, kokoro-fastapi-cpu) and
+# drop the `deploy` blocks.
+services:
+  stt:
+    image: ghcr.io/speaches-ai/speaches:latest-cuda
+    ports: ["127.0.0.1:8000:8000"]
+    volumes: ["speech-models:/home/ubuntu/.cache/huggingface/hub"]
+    # int8 weights keep distil-large-v3 under ~1 GB of VRAM; the 6 GB GPU is shared.
+    environment: [WHISPER__COMPUTE_TYPE=int8_float16]
+    restart: unless-stopped
+    deploy:
+      resources:
+        reservations:
+          devices: [{ driver: nvidia, count: all, capabilities: [gpu] }]
+  tts:
+    image: ghcr.io/remsky/kokoro-fastapi-gpu:latest
+    ports: ["127.0.0.1:8880:8880"]
+    restart: unless-stopped
+    deploy:
+      resources:
+        reservations:
+          devices: [{ driver: nvidia, count: all, capabilities: [gpu] }]
+volumes:
+  speech-models:

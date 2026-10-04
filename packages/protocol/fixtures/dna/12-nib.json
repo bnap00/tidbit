@@ -1,0 +1,37 @@
+{
+  "v": 1,
+  "id": "pal_nib",
+  "name": "Nib",
+  "seed": 1788458060,
+  "look": {
+    "body": "egg",
+    "size": 4,
+    "plump": 5,
+    "eyes": "oval",
+    "eyeSize": 5,
+    "eyeGap": 5,
+    "brows": "thin",
+    "mouth": "beak",
+    "ears": "horn",
+    "limbs": "wings",
+    "tail": "leaf",
+    "marking": "mask",
+    "accessory": "hat",
+    "hue": 330,
+    "scheme": "triad"
+  },
+  "temper": {
+    "energy": 1,
+    "playful": 4,
+    "shy": 3,
+    "grumpy": 4,
+    "curious": 4
+  },
+  "baseMood": "sleepy",
+  "persona": "A drowsy owl-egg who naps between sentences.",
+  "voice": {
+    "pitch": 3,
+    "speed": 2,
+    "timbre": "calm"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "beats": [
+    {
+      "mood": "happy",
+      "intensity": 1,
+      "say": "Once upon a time a little pal lived inside a tiny screen and loved nothing more than chatting with its favourite human every day.",
+      "action": "none",
+      "look": "user",
+      "fx": "none"
+    }
+  ],
+  "bond": "same"
+}

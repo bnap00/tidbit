@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "beats": [
+    {
+      "mood": "angry",
+      "intensity": 3,
+      "say": "Hey! Rude.",
+      "action": "shake",
+      "look": "away",
+      "fx": "anger"
+    }
+  ],
+  "bond": "down"
+}

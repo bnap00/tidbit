@@ -1,0 +1,19 @@
+{
+  "name": "@tidbit/protocol",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./rig-data": "./src/generated/rig-data.ts",
+    "./fixtures": "./src/fixtures-node.ts"
+  },
+  "scripts": {
+    "codegen": "tsx scripts/codegen.ts",
+    "typecheck": "tsc --noEmit -p ."
+  },
+  "dependencies": {
+    "typebox": "1.3.27"
+  }
+}

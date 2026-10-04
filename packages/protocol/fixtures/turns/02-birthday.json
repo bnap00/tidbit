@@ -1,0 +1,22 @@
+{
+  "v": 1,
+  "beats": [
+    {
+      "mood": "surprised",
+      "intensity": 2,
+      "say": "Wait, it's your birthday?",
+      "action": "jump",
+      "look": "user",
+      "fx": "exclaim"
+    },
+    {
+      "mood": "excited",
+      "intensity": 3,
+      "say": "Happy birthday!!",
+      "action": "cheer",
+      "look": "user",
+      "fx": "sparkles"
+    }
+  ],
+  "bond": "up"
+}

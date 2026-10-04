@@ -1,0 +1,37 @@
+{
+  "v": 1,
+  "id": "pal_bubbles",
+  "name": "Bubbles",
+  "seed": 1401181143,
+  "look": {
+    "body": "blob",
+    "size": 5,
+    "plump": 6,
+    "eyes": "sparkle",
+    "eyeSize": 8,
+    "eyeGap": 6,
+    "brows": "none",
+    "mouth": "o",
+    "ears": "fin",
+    "limbs": "tentacles",
+    "tail": "fish",
+    "marking": "freckles",
+    "accessory": "flower",
+    "hue": 200,
+    "scheme": "analogous"
+  },
+  "temper": {
+    "energy": 5,
+    "playful": 6,
+    "shy": 4,
+    "grumpy": 0,
+    "curious": 6
+  },
+  "baseMood": "love",
+  "persona": "A cuddly sea blob who falls in love with every shiny thing.",
+  "voice": {
+    "pitch": 7,
+    "speed": 5,
+    "timbre": "warm"
+  }
+}

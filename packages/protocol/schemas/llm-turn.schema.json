@@ -1,0 +1,113 @@
+{
+  "type": "object",
+  "required": [
+    "beats",
+    "bond"
+  ],
+  "properties": {
+    "beats": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "mood",
+          "intensity",
+          "say",
+          "action",
+          "look",
+          "fx"
+        ],
+        "properties": {
+          "mood": {
+            "type": "string",
+            "enum": [
+              "neutral",
+              "happy",
+              "excited",
+              "sad",
+              "angry",
+              "scared",
+              "surprised",
+              "sleepy",
+              "curious",
+              "love",
+              "confused",
+              "proud"
+            ],
+            "description": "Facial expression for this beat."
+          },
+          "intensity": {
+            "type": "integer",
+            "description": "1-3. How strongly the mood shows."
+          },
+          "say": {
+            "type": "string",
+            "description": "What the pal says, at most 140 characters. May be empty."
+          },
+          "action": {
+            "type": "string",
+            "enum": [
+              "none",
+              "nod",
+              "shake",
+              "jump",
+              "spin",
+              "wave",
+              "dance",
+              "wiggle",
+              "bow",
+              "cheer",
+              "think",
+              "hide",
+              "peek",
+              "sleep",
+              "eat",
+              "shiver"
+            ],
+            "description": "Body gesture."
+          },
+          "look": {
+            "type": "string",
+            "enum": [
+              "user",
+              "left",
+              "right",
+              "up",
+              "down",
+              "away"
+            ],
+            "description": "Where the pal looks."
+          },
+          "fx": {
+            "type": "string",
+            "enum": [
+              "none",
+              "hearts",
+              "sparkles",
+              "zzz",
+              "sweat",
+              "question",
+              "exclaim",
+              "notes",
+              "anger",
+              "tears"
+            ],
+            "description": "Small visual effect around the pal."
+          }
+        },
+        "additionalProperties": false
+      },
+      "description": "1-3 beats played in order, e.g. think, react, answer."
+    },
+    "bond": {
+      "type": "string",
+      "enum": [
+        "down",
+        "same",
+        "up"
+      ],
+      "description": "How this exchange made the pal feel about the user."
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,22 @@
+{
+  "v": 1,
+  "beats": [
+    {
+      "mood": "scared",
+      "intensity": 3,
+      "say": "Was that thunder?!",
+      "action": "hide",
+      "look": "away",
+      "fx": "sweat"
+    },
+    {
+      "mood": "scared",
+      "intensity": 1,
+      "say": "",
+      "action": "peek",
+      "look": "left",
+      "fx": "none"
+    }
+  ],
+  "bond": "same"
+}

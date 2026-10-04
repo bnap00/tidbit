@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "beats": [
+    {
+      "mood": "happy",
+      "intensity": 3,
+      "say": "Nom nom nom.",
+      "action": "eat",
+      "look": "user",
+      "fx": "hearts"
+    }
+  ],
+  "bond": "up"
+}

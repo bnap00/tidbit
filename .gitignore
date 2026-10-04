@@ -1,0 +1,18 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.env
+apps/brain/data/
+test-results/
+playwright-report/
+.snapshots-actual/
+
+# OAuth credentials from `pi-ai login` (secrets)
+auth.json
+**/auth.json
+.device-token
+.logs/
+
+# Local design notes, kept out of the repo
+PLAN.md
+DECISIONS.md

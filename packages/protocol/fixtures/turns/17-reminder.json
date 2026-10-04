@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "beats": [
+    {
+      "mood": "curious",
+      "intensity": 2,
+      "say": "Psst, it's time to water the plants.",
+      "action": "wave",
+      "look": "user",
+      "fx": "exclaim"
+    }
+  ],
+  "bond": "same"
+}

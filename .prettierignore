@@ -1,0 +1,13 @@
+node_modules
+dist
+pnpm-lock.yaml
+PLAN.md
+**/generated/**
+packages/protocol/fixtures/junk
+*.png
+packages/protocol/schemas
+packages/protocol/src/generated
+test-results
+firmware/build
+firmware/managed_components
+firmware/dependencies.lock

@@ -1,0 +1,42 @@
+menu "Tidbit"
+  choice PAL_BOARD
+    prompt "Board"
+    default PAL_BOARD_WAVESHARE_AMOLED_18
+    config PAL_BOARD_WAVESHARE_AMOLED_18
+      bool "Waveshare ESP32-S3-Touch-AMOLED-1.8"
+  endchoice
+  choice PAL_WS_REV
+    prompt "Waveshare revision"
+    depends on PAL_BOARD_WAVESHARE_AMOLED_18
+    default PAL_WS_REV_AUTO
+    config PAL_WS_REV_AUTO
+      bool "Detect from the touch controller"
+    config PAL_WS_REV_V1
+      bool "V1: SH8601 screen, FT3168 touch"
+    config PAL_WS_REV_V2
+      bool "V2: CO5300 screen, CST820 touch"
+  endchoice
+  config PAL_WIFI_SSID
+    string "Wi-Fi network (optional; otherwise set up on the device)"
+    default ""
+  config PAL_WIFI_PASSWORD
+    string "Wi-Fi password"
+    default ""
+  config PAL_SERVER
+    string "Tidbit web server, host:port (e.g. 192.168.1.20:5174)"
+    default ""
+  config PAL_DARK
+    bool "Dark backdrop (a glow behind the pal, black edges)"
+    default y
+  config PAL_OTA_PASSWORD
+    string "Password for updates over Wi-Fi (ota.sh); empty turns them off"
+    default ""
+  config PAL_SCREEN_OFF_S
+    int "Screen off after this many seconds alone (0 = never)"
+    range 0 3600
+    default 30
+  config PAL_FPS
+    int "Frames per second asked of the brain"
+    range 1 30
+    default 24
+endmenu

@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "beats": [
+    {
+      "mood": "excited",
+      "intensity": 2,
+      "say": "This song is a bop!",
+      "action": "dance",
+      "look": "user",
+      "fx": "notes"
+    }
+  ],
+  "bond": "up"
+}

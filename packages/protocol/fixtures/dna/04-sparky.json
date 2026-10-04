@@ -1,0 +1,37 @@
+{
+  "v": 1,
+  "id": "pal_sparky",
+  "name": "Sparky",
+  "seed": 2027808452,
+  "look": {
+    "body": "square",
+    "size": 5,
+    "plump": 5,
+    "eyes": "round",
+    "eyeSize": 5,
+    "eyeGap": 6,
+    "brows": "none",
+    "mouth": "line",
+    "ears": "antenna",
+    "limbs": "arms",
+    "tail": "none",
+    "marking": "stripes",
+    "accessory": "glasses",
+    "hue": 190,
+    "scheme": "neon"
+  },
+  "temper": {
+    "energy": 9,
+    "playful": 7,
+    "shy": 1,
+    "grumpy": 1,
+    "curious": 8
+  },
+  "baseMood": "excited",
+  "persona": "A tiny robot powered by pure enthusiasm and questionable wiring.",
+  "voice": {
+    "pitch": 7,
+    "speed": 8,
+    "timbre": "bubbly"
+  }
+}

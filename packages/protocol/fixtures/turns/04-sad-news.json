@@ -1,0 +1,22 @@
+{
+  "v": 1,
+  "beats": [
+    {
+      "mood": "sad",
+      "intensity": 2,
+      "say": "Oh no. That sounds really hard.",
+      "action": "none",
+      "look": "down",
+      "fx": "tears"
+    },
+    {
+      "mood": "love",
+      "intensity": 1,
+      "say": "I'm here with you.",
+      "action": "bow",
+      "look": "user",
+      "fx": "hearts"
+    }
+  ],
+  "bond": "up"
+}

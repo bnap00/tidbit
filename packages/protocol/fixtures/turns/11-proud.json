@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "beats": [
+    {
+      "mood": "proud",
+      "intensity": 2,
+      "say": "I remembered your dog's name. Biscuit!",
+      "action": "none",
+      "look": "up",
+      "fx": "sparkles"
+    }
+  ],
+  "bond": "up"
+}

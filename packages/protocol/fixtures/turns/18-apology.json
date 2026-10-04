@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "beats": [
+    {
+      "mood": "sad",
+      "intensity": 1,
+      "say": "Sorry, I forgot that one.",
+      "action": "bow",
+      "look": "down",
+      "fx": "sweat"
+    }
+  ],
+  "bond": "same"
+}

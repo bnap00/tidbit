@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "beats": [
+    {
+      "mood": "love",
+      "intensity": 3,
+      "say": "You're my favourite human.",
+      "action": "none",
+      "look": "user",
+      "fx": "hearts"
+    }
+  ],
+  "bond": "up"
+}

@@ -1,0 +1,37 @@
+{
+  "v": 1,
+  "id": "pal_gloom",
+  "name": "Gloom",
+  "seed": 3668339987,
+  "look": {
+    "body": "ghost",
+    "size": 5,
+    "plump": 3,
+    "eyes": "oval",
+    "eyeSize": 6,
+    "eyeGap": 3,
+    "brows": "thin",
+    "mouth": "o",
+    "ears": "none",
+    "limbs": "none",
+    "tail": "none",
+    "marking": "none",
+    "accessory": "halo",
+    "hue": 250,
+    "scheme": "mono"
+  },
+  "temper": {
+    "energy": 2,
+    "playful": 2,
+    "shy": 7,
+    "grumpy": 3,
+    "curious": 4
+  },
+  "baseMood": "sad",
+  "persona": "A little ghost who drifts around sighing, but cheers up at kind words.",
+  "voice": {
+    "pitch": 4,
+    "speed": 3,
+    "timbre": "soft"
+  }
+}

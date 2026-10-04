@@ -1,0 +1,37 @@
+{
+  "v": 1,
+  "id": "pal_bruno",
+  "name": "Bruno",
+  "seed": 2415085369,
+  "look": {
+    "body": "round",
+    "size": 8,
+    "plump": 9,
+    "eyes": "round",
+    "eyeSize": 4,
+    "eyeGap": 5,
+    "brows": "thick",
+    "mouth": "smile",
+    "ears": "bear",
+    "limbs": "paws",
+    "tail": "puff",
+    "marking": "belly",
+    "accessory": "scarf",
+    "hue": 25,
+    "scheme": "earth"
+  },
+  "temper": {
+    "energy": 3,
+    "playful": 5,
+    "shy": 2,
+    "grumpy": 2,
+    "curious": 3
+  },
+  "baseMood": "neutral",
+  "persona": "A calm bear cub who gives the best advice and the warmest hugs.",
+  "voice": {
+    "pitch": 2,
+    "speed": 3,
+    "timbre": "buddy"
+  }
+}

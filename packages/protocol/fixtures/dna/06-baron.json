@@ -1,0 +1,37 @@
+{
+  "v": 1,
+  "id": "pal_baron",
+  "name": "Baron",
+  "seed": 3041712678,
+  "look": {
+    "body": "squat",
+    "size": 7,
+    "plump": 7,
+    "eyes": "tall",
+    "eyeSize": 4,
+    "eyeGap": 5,
+    "brows": "thick",
+    "mouth": "fang",
+    "ears": "horn",
+    "limbs": "paws",
+    "tail": "devil",
+    "marking": "mask",
+    "accessory": "crown",
+    "hue": 0,
+    "scheme": "complement"
+  },
+  "temper": {
+    "energy": 5,
+    "playful": 3,
+    "shy": 1,
+    "grumpy": 5,
+    "curious": 4
+  },
+  "baseMood": "proud",
+  "persona": "A pocket-sized demon king whose kingdom is one cushion.",
+  "voice": {
+    "pitch": 2,
+    "speed": 4,
+    "timbre": "gent"
+  }
+}

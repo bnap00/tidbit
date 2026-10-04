@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "beats": [
+    {
+      "mood": "confused",
+      "intensity": 2,
+      "say": "Wait, which one is the left one?",
+      "action": "wiggle",
+      "look": "left",
+      "fx": "question"
+    }
+  ],
+  "bond": "same"
+}

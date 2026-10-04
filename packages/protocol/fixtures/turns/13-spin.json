@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "beats": [
+    {
+      "mood": "excited",
+      "intensity": 3,
+      "say": "Wheee!",
+      "action": "spin",
+      "look": "user",
+      "fx": "sparkles"
+    }
+  ],
+  "bond": "up"
+}
