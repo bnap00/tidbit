@@ -13,7 +13,7 @@
   "dependencies": {
     "@tidbit/protocol": "workspace:*",
     "@tidbit/rig": "workspace:*",
-    "@huggingface/transformers": "3.8.1",
+    "@huggingface/transformers": "4.3.2",
     "kokoro-js": "^1.2.1"
   },
   "devDependencies": {
