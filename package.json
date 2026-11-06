@@ -5,7 +5,7 @@
   "description": "A tiny AI pet that animates itself live with no image generation. Any AI provider or offline; remembers, learns skills, and calls any API or webhook.",
   "private": true,
   "type": "module",
-  "packageManager": "pnpm@10.15.0",
+  "packageManager": "pnpm@11.28.9",
   "engines": {
     "node": ">=22.19"
   },
@@ -36,7 +36,7 @@
     "tsx": "^4.23.15",
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.71.0",
-    "vitest": "^3.2.7"
+    "vitest": "^4.1.12"
   },
   "repository": {
     "type": "git",

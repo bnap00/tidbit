@@ -41,7 +41,10 @@ cp .env.example .env
 # ANTHROPIC_API_KEY=...
 ```
 
-Requires Node 22.19+ and pnpm 10.
+Requires Node 22.19+ and pnpm 11.
+
+Contributing? Install the secret-scanning commit hook once with
+`pre-commit install` ([pre-commit](https://pre-commit.com), runs Gitleaks on staged changes).
 
 ## What's inside
 

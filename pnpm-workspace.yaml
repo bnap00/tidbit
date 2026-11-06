@@ -1,5 +1,17 @@
 packages:
   - packages/*
   - apps/*
-onlyBuiltDependencies:
-  - esbuild
+# Only esbuild may run install scripts; the rest ship prebuilt binaries or don't need them.
+allowBuilds:
+  esbuild: true
+  "@google/genai": false
+  onnxruntime-node: false
+  protobufjs: false
+# Supply-chain delay: only install versions published at least 3 days ago (minutes),
+# matching the Dependabot cooldown in .github/dependabot.yml.
+minimumReleaseAge: 4320
+# Patched transitive deps (pnpm audit); drop each once its parent ships the fix.
+overrides:
+  sharp: ^0.35.5
+  source-map-js: ^1.2.2
+  minimatch: ^11.0.1

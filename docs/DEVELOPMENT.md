@@ -1,6 +1,6 @@
 # Development
 
-Requires Node 22.19+ and pnpm 10.
+Requires Node 22.19+ and pnpm 11.
 
 ```bash
 pnpm install
