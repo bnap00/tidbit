@@ -40,11 +40,21 @@ jobs:
         with:
           fetch-depth: 0
           persist-credentials: false
-      - uses: gitleaks/gitleaks-action@e0c47f4f8be36e29cdc102c57e68cb5cbf0e8d1e # v3.0.0
+      # The binary, not gitleaks-action: the action scans PRs with --first-parent
+      # --no-merges and caps the range at the first page of PR commits. The history is
+      # small, so scan all of it every time, merged side branches included.
+      - name: Install gitleaks
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # PR comments would need pull-requests: write; findings fail the job instead.
-          GITLEAKS_ENABLE_COMMENTS: false
+          VERSION: 8.30.1
+          SHA256: 551f6fc83ea457d62a0d98237cbad105af8d557003051f41f3e7ca7b3f2470eb
+        run: |
+          tarball="gitleaks_${VERSION}_linux_x64.tar.gz"
+          curl -fsSLo "$RUNNER_TEMP/$tarball" \
+            "https://github.com/gitleaks/gitleaks/releases/download/v${VERSION}/$tarball"
+          echo "$SHA256  $RUNNER_TEMP/$tarball" | sha256sum -c -
+          tar -xzf "$RUNNER_TEMP/$tarball" -C "$RUNNER_TEMP" gitleaks
+      - name: Scan full git history
+        run: '"$RUNNER_TEMP/gitleaks" git --redact --verbose --exit-code 1 .'
 
   codeql:
     runs-on: ubuntu-latest
